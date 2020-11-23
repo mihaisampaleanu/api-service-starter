@@ -1,0 +1,7 @@
+**/*.md
+**/*.svg
+**/*.yaml
+**/*.yml
+**/*.json
+
+dist

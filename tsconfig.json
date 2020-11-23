@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "removeComments": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "lib": [
+      "ES2020"
+    ],
+    "outDir": "dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "./dynamicData",
+    "node_modules",
+    "dist",
+    "__tests__"
+  ]
+}
